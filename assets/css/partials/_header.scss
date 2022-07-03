@@ -1,0 +1,70 @@
+.header {
+    background: linear-gradient(168.05deg, #023B96 5.04%, #022357 91.26%);
+    width: 100%;
+    height: 430px;
+    position: fixed;
+    top: 0;
+
+    .cloud {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 0;
+        animation: move 3s infinite;
+
+        @keyframes move {
+            0% {
+                transform: translatex(0);
+            }
+
+            50% {
+                transform: translatey(-5px);
+            }
+        }
+    }
+
+    .plane {
+        width: auto;
+        height: auto;
+        position: absolute;
+        z-index: 0;
+        animation: move 3s infinite;
+
+    }
+}
+
+@media(max-width:767px) {
+    .plane {
+        right: 0;
+        top: 10%;
+
+        img {
+            width: 50%;
+        }
+    }
+
+}
+
+@media(min-width:768px) {
+    .plane {
+        right: 0;
+        top: 25%;
+
+        img {
+            width: 50%;
+        }
+    }
+
+}
+
+@media(min-width:1024px) {
+    .plane {
+        right: 10%;
+        top: 33.33%;
+
+        img {
+            width: auto;
+        }
+    }
+
+}

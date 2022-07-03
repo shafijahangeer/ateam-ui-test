@@ -215,7 +215,7 @@
                             width: 100%;
                             height: 100%;
                             content: '';
-                            border-radius: 10px;
+                            border-radius: 14px;
                         }
 
                         .pic {
@@ -414,6 +414,7 @@
                         border: 0;
                         width: 138px;
                         height: 54px;
+                        font-weight: bold;
                         &:hover{
                             background: #DF142D;
                         }

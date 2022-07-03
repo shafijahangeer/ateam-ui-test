@@ -56,6 +56,7 @@
 
     .sidebar-brand {
         @extend .flex-between;
+        margin-bottom: 65px;
     }
 
     h1 {
@@ -103,7 +104,7 @@
         padding: 0 15px;
         @extend .flex-between;
         height: 45px;
-        margin-top: 250px;
+        // margin-top: 60%;
 
         .icon {
             img {
@@ -209,6 +210,11 @@
         position: relative;
         margin-right: 0;
     }
+    .sidebar-nav{
+        .premium-btn-box{
+            margin-top: 90%;
+        }
+    }
 }
 
 @media(min-width:768px) {
@@ -247,6 +253,11 @@
         position: relative;
         margin-right: 0;
     }
+    .sidebar-nav{
+        .premium-btn-box{
+            margin-top: 90%;
+        }
+    }
 }
 
 @media(min-width:1024px) {
@@ -254,5 +265,10 @@
         width: 200px;
         left: 40px;
         top: 35px;
+    }
+    .sidebar-nav{
+        .premium-btn-box{
+            margin-top: 85%;
+        }
     }
 }
